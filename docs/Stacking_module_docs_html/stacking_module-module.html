@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>stacking_module</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th bgcolor="#70b0f0" class="navbar-select"
+          >&nbsp;&nbsp;&nbsp;Home&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        Module&nbsp;stacking_module
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="stacking_module-module.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== MODULE DESCRIPTION ==================== -->
+<h1 class="epydoc">Module stacking_module</h1><p class="nomargin-top"><span class="codelink"><a href="stacking_module-pysrc.html">source&nbsp;code</a></span></p>
+<pre class="literalblock">
+Module for Stacking
+
+This module is developed in the course of Tele2 project.
+The module represents clases for data preparation and model execution for the Stacking purposes.
+The module implements both types of computing: local and distributed.
+Module can execute models written on Python2, R and Scala languages
+
+The module is written for using with Python 2.7
+The module has the following dependencies:
+- pandas
+- subprocess
+- shlex
+- numpy
+- pyspark (Spark 1.6.0)
+- sklearn
+
+version 0.0.3 beta
+
+</pre>
+
+<!-- ==================== CLASSES ==================== -->
+<a name="section-Classes"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Classes</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-Classes"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="stacking_module.SparkStackingDataFrame-class.html" class="summary-name">SparkStackingDataFrame</a><br />
+      A child class of Spark :class: 'DataFrame' containing methods for 
+      data preparation to Stacking modelling.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="stacking_module.PandasStackingDataFrame-class.html" class="summary-name">PandasStackingDataFrame</a><br />
+      A child class of Pandas :class: 'pandas.DataFrame' containing methods
+      for data preparation to Stacking modelling.
+    </td>
+  </tr>
+</table>
+<!-- ==================== FUNCTIONS ==================== -->
+<a name="section-Functions"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Functions</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-Functions"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="_version_"></a><span class="summary-sig-name">_version_</span>()</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="stacking_module-pysrc.html#_version_">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="set_models"></a><span class="summary-sig-name">set_models</span>(<span class="summary-sig-arg">models_num_</span>,
+        <span class="summary-sig-arg">model_list_</span>,
+        <span class="summary-sig-arg">project_</span>,
+        <span class="summary-sig-arg">model_path_</span>,
+        <span class="summary-sig-arg">target_col_</span>,
+        <span class="summary-sig-arg">scala_spark_conf_</span>=<span class="summary-sig-default">False</span>,
+        <span class="summary-sig-arg">get_compute_meta_log_</span>=<span class="summary-sig-default">False</span>)</span><br />
+      set the parameters of pre - trained models (Intermediate models) * 
+      **number of models** - a number of intermediate models * 
+      **model_language_dict** - a list of languages that the models been 
+      written (Can consist only from the following values: 
+      'r','scala','python') * **project** - unique name of a stacking 
+      project * **model_path** - list of full pathes to the models * 
+      **target_col** - column name with target variable in the 
+      train&amp;test sets * **scala_spark_conf_** - Spark config parameters
+      for Scala jobs, submitted on Cluster * **get_compute_meta_log_** - if
+      set in True :function: compute_meta() will returns of output for 
+      exitcode,stdout,stderr</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="stacking_module-pysrc.html#set_models">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="models_setting"></a><span class="summary-sig-name">models_setting</span>()</span><br />
+      Show up the set parameters of pre - trained models</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="stacking_module-pysrc.html#models_setting">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_exitcode_stdout_stderr"></a><span class="summary-sig-name">get_exitcode_stdout_stderr</span>(<span class="summary-sig-arg">cmd</span>)</span><br />
+      Executing the shell command (cmd) and get its exitcode, stdout and 
+      stderr.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="stacking_module-pysrc.html#get_exitcode_stdout_stderr">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="compute_meta_distributed"></a><span class="summary-sig-name">compute_meta_distributed</span>(<span class="summary-sig-arg">sql_ctx</span>)</span><br />
+      Executing of the intermediate models and apply it to test set.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="stacking_module-pysrc.html#compute_meta_distributed">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="save_meta_distributed"></a><span class="summary-sig-name">save_meta_distributed</span>(<span class="summary-sig-arg">table_list</span>,
+        <span class="summary-sig-arg">sql_ctx</span>)</span><br />
+      Append all predictions from intermediate models into one dataframe 
+      and return its name</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="stacking_module-pysrc.html#save_meta_distributed">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="compute_meta_local"></a><span class="summary-sig-name">compute_meta_local</span>()</span><br />
+      Model Executor for intermediate models in Stacking</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="stacking_module-pysrc.html#compute_meta_local">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="save_meta_local"></a><span class="summary-sig-name">save_meta_local</span>(<span class="summary-sig-arg">table_list</span>)</span><br />
+      Append all predictions from intermediate models into one dataframe 
+      and return its name</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="stacking_module-pysrc.html#save_meta_local">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th bgcolor="#70b0f0" class="navbar-select"
+          >&nbsp;&nbsp;&nbsp;Home&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Mon Oct  2 01:25:00 2017
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>
